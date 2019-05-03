@@ -3,7 +3,7 @@
 Format the C: drive within a second!
 
 ## HOW DOES WORK:
-- Finding a code which formats the C: drive in Google, I got an idea: why I don't write an MBR, which resets the hard disk, in assembly!
+- While finding a code which formats the C: drive in Google, I got an idea: why I don't write an MBR, which resets the hard disk, in assembly!
 - First thing, I wrote the MBR in assembly(see code.asm)
 - Next, I assembled it(lol) and I converted it into the C extension (use a converter, like HxD, etc...)
 - Then, I wrote a C++ code (see main.cpp)
