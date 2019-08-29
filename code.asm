@@ -16,7 +16,7 @@ main: ;the start of the code.
 	mov ah, 0Dh
 	mov bl, 80h ;or this one.
 	int 13
-	jmp $       ;JUMP FOR INFINITY!
+	jmp $       ;INFINITY
 
 times 510 - ($-$$) db 0 ;fill the rest of the sector with zeros.
 DW 0xAA55 ;MAGIC NUMBER!!!!!!!
